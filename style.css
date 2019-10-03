@@ -41,8 +41,8 @@ body {
 .tree {
 	z-index: 5;
 	position: relative;
-	height: 1800px;
-		bottom: 800px;
+	height: 2000px;
+		bottom: 650px;
 	width: 2000px;
 		right: 900px;
 }

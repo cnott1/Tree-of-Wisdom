@@ -8,6 +8,7 @@ body {
 	background-size: cover;
 }
 
+/* sticks element to right side of screen*/ 
 .absolute {
 	position: absolute;
 	right: 200px;
@@ -20,7 +21,7 @@ body {
 	width: 200px;
 	padding-top: 100px;
 }
-
+/*this image is relatively placed*/
 .knot-img {
 	z-index: 10;
 	position: relative;
@@ -56,6 +57,7 @@ body {
 		left: -100px;
 }
 
+/* this title only appears with the media query*/
 .mobile-title {
 	display: none;
 	color: white;
@@ -66,6 +68,7 @@ body {
   .tree-wrapper {
 	display: none;
   }
+/*the background will remain as a static image*/
   body {
 	background-image: url("images/tree-backdrop.png");
 	text-align: center;
@@ -83,10 +86,12 @@ body {
 	margin-left: auto;
     margin-right: auto;
   }
+	/*removes all absolute positiong for a simpler layout*/
 	.absolute {
 		position: none;
 		right: 0;
 	}
+	/*removes extra elements for simpler reading*/
 	.grass {
 		display: none;
 	}

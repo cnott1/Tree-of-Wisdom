@@ -64,7 +64,13 @@ body {
 	background-color: gray;
 }
 
+/*This will switch the format to the mobile one when the screen is small enough
+This will work for any device with a screen size less wide than 700px, such as a phone or ipad.
+Because of how the tree moves to stick to the right side of the screen, we don't need a large amount of queries to adapt
+the website to many different devices UNTIL 700px is reached.
+*/
 @media only screen and (max-width: 700px) {
+	/* The tree will become hidden and replaced with the background image*/  
   .tree-wrapper {
 	display: none;
   }
@@ -73,6 +79,7 @@ body {
 	background-image: url("images/tree-backdrop.png");
 	text-align: center;
   }
+	/*the tree knots will follow a straight, vertical, column setup for simplicity*/
   .knot-wrapper {
 	text-align: center;
 	width: 100%;
@@ -95,6 +102,7 @@ body {
 	.grass {
 		display: none;
 	}
+	/*A completely new title will appear for the mobile layout*/
 	.mobile-title {
 		display: inherit;
 	}
